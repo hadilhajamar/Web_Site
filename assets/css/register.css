@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+*{
+    font-family: "lato", sans-serif;
+}
+#reg_section{
+    display: flex;
+    height:100% ;
+    width: 100%;
+}
+
+.left{
+   width: 50%;
+   background-color: lightgray;
+   text-align: center;
+   display: flex;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+.right{
+    width: 50%;
+    display: flex;
+}
+.right form{
+    margin: auto auto auto 15%;
+    width: 70%;
+
+}
+.right h1{
+    font-size: 40px;
+}
+
+
+    .right .inputs
+     {
+    background-color: #F7F7F7;
+    padding: 9px 20px;/* taille de la partie gray*/
+    border: none;
+    text-align: left;
+    margin-bottom: 15px;/* entre name et address*/
+    border-radius: 10px;
+    width:60%;
+    font-size: 15px;
+    }
+    
+    
+ #btn_register {
+    border: none;
+    color: white;
+    background: #0093ff;
+    border-radius: 5px;/* arrandis*/
+    padding: 10px 25px;
+    margin: 15px auto;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  
+
+
+   
+
+      
+    
+    
